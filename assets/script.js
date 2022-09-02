@@ -31,12 +31,96 @@ btngenerateEl.addEventListener("click", function() {
         var f = symbols + lowerCase;
         var g = symbols + upperCase;
         var h = numbers + lowerCase;
-        var i = numbers + upperCase;
-        var j = lowerCase + upperCase;
+        var j = numbers + upperCase;
+        var k = lowerCase + upperCase;
 
 
 
         if ((genSymbols === true) && (genNumbers === true) && (genLowerCase === true) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === true) && (genNumbers === true) && (genLowerCase === true) && (genUpperCase === false)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === true) && (genNumbers === true) && (genLowerCase === false) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === true) && (genNumbers === false) && (genLowerCase === true) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === false) && (genNumbers === true) && (genLowerCase === true) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if((genSymbols === true) && (genNumbers === true) && (genLowerCase === false) && (genUpperCase === false)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if((genSymbols === true) && (genNumbers === false) && (genLowerCase === true) && (genUpperCase === false)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === true) && (genNumbers === false) && (genLowerCase === false) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === false) && (genNumbers === true) && (genLowerCase === true) && (genUpperCase === false)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === false) && (genNumbers === true) && (genLowerCase === false) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === false) && (genNumbers === false) && (genLowerCase === true) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === true) && (genNumbers === false) && (genLowerCase === false) && (genUpperCase === false)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === false) && (genNumbers === true) && (genLowerCase === false) && (genUpperCase === false)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === false) && (genNumbers === false) && (genLowerCase === true) && (genUpperCase === false)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
+        else if ((genSymbols === false) && (genNumbers === false) && (genLowerCase === false) && (genUpperCase === true)) {
             for (i = 0; i < charLength; i++) {
                 var character = Math.floor(Math.random() * allCharacters.length);
                 newpassword += a.charAt(character, character + 1);
