@@ -18,7 +18,7 @@ btngenerateEl.addEventListener("click", function() {
 
         var genSymbols = confirm("do you want to use special characters? i.e (!,@,#,$)");
         var genNumbers = confirm("do you want to use numbers?");
-        var genLowerCase = confirm("do you want uppercase letters?");
+        var genLowerCase = confirm("do you want lower case letters?");
         var genUpperCase = confirm("do you want upper case letters?")
 
 
@@ -126,6 +126,10 @@ btngenerateEl.addEventListener("click", function() {
                 newpassword += a.charAt(character, character + 1);
             }
         }
+
+
+
+        passwordEl.textContent = newpassword;
         
 
 
