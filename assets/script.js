@@ -33,6 +33,15 @@ btngenerateEl.addEventListener("click", function() {
         var h = numbers + lowerCase;
         var i = numbers + upperCase;
         var j = lowerCase + upperCase;
+
+
+
+        if ((genSymbols === true) && (genNumbers === true) && (genLowerCase === true) && (genUpperCase === true)) {
+            for (i = 0; i < charLength; i++) {
+                var character = Math.floor(Math.random() * allCharacters.length);
+                newpassword += a.charAt(character, character + 1);
+            }
+        }
         
 
 
